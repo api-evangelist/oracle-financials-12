@@ -1,10 +1,15 @@
+aid: oracle-financials-12
 name: Oracle Financials 12 APIs
 description: Collection of REST APIs for Oracle E-Business Suite Financials Release 12
-image: https://www.oracle.com/a/ocom/img/oracle-logo.svg
-url: https://www.oracle.com/financials/
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2024-01-15'
-specificationVersion: '0.18'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
 - name: Oracle General Ledger API
   description: API for managing general ledger operations including journals, budgets, and financial reporting
@@ -170,9 +175,8 @@ common:
 - type: Privacy Policy
   url: https://www.oracle.com/legal/privacy/
 maintainers:
-- name: Oracle Corporation
-  email: financials-support@oracle.com
-  url: https://www.oracle.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 tags:
 - Financial Management
 - ERP
