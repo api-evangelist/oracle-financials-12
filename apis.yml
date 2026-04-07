@@ -20,20 +20,17 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13561/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
-      - General Ledger
       - Accounting
       - Financial Reporting
+      - General Ledger
       - Journals
     properties:
       - type: OpenAPI
-        url: 
-          https://docs.oracle.com/en/cloud/saas/financials/openapi/gl-api.json
+        url: https://docs.oracle.com/en/cloud/saas/financials/openapi/gl-api.json
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13561/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13561/T302934T531415.htm
       - type: Authentication
-        url: 
-          https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/authentication.html
+        url: https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/authentication.html
     contact:
       - type: Support
         url: https://support.oracle.com
@@ -50,11 +47,9 @@ apis:
       - Suppliers
     properties:
       - type: OpenAPI
-        url: 
-          https://docs.oracle.com/en/cloud/saas/financials/openapi/ap-api.json
+        url: https://docs.oracle.com/en/cloud/saas/financials/openapi/ap-api.json
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13533/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13533/T302934T531415.htm
       - type: API Guide
         url: https://docs.oracle.com/cd/E18727_01/doc.121/e20280/toc.htm
     contact:
@@ -68,16 +63,14 @@ apis:
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
       - Accounts Receivable
+      - Collections
       - Customer Invoices
       - Receipts
-      - Collections
     properties:
       - type: OpenAPI
-        url: 
-          https://docs.oracle.com/en/cloud/saas/financials/openapi/ar-api.json
+        url: https://docs.oracle.com/en/cloud/saas/financials/openapi/ar-api.json
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13522/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13522/T302934T531415.htm
       - type: API Guide
         url: https://docs.oracle.com/cd/E18727_01/doc.121/e20281/toc.htm
     contact:
@@ -90,17 +83,15 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13540/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
-      - Cash Management
       - Bank Accounts
-      - Treasury
+      - Cash Management
       - Reconciliation
+      - Treasury
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13540/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13540/T302934T531415.htm
       - type: API Reference
-        url: 
-          https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/api-cash-management.html
+        url: https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/api-cash-management.html
     contact:
       - type: Support
         url: https://support.oracle.com
@@ -111,14 +102,13 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13549/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
-      - Fixed Assets
-      - Depreciation
       - Asset Management
       - Capital Assets
+      - Depreciation
+      - Fixed Assets
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13549/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13549/T302934T531415.htm
       - type: API Guide
         url: https://docs.oracle.com/cd/E18727_01/doc.121/e20282/toc.htm
     contact:
@@ -131,17 +121,15 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13513/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
-      - Purchasing
-      - Purchase Orders
-      - Requisitions
       - Procurement
+      - Purchase Orders
+      - Purchasing
+      - Requisitions
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13513/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13513/T302934T531415.htm
       - type: API Reference
-        url: 
-          https://docs.oracle.com/en/cloud/saas/procurement/r13-update17d/oaprc/api-purchasing.html
+        url: https://docs.oracle.com/en/cloud/saas/procurement/r13-update17d/oaprc/api-purchasing.html
     contact:
       - type: Support
         url: https://support.oracle.com
@@ -152,17 +140,15 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13548/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
-      - Expenses
       - Expense Reports
+      - Expenses
       - Reimbursements
       - Travel
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13548/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13548/T302934T531415.htm
       - type: API Guide
-        url: 
-          https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/api-expenses.html
+        url: https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/api-expenses.html
     contact:
       - type: Support
         url: https://support.oracle.com
@@ -173,17 +159,15 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13523/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
-      - Projects
-      - Project Costing
-      - Project Billing
       - Contracts
+      - Project Billing
+      - Project Costing
+      - Projects
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E18727_01/doc.121/e13523/T302934T531415.htm
+        url: https://docs.oracle.com/cd/E18727_01/doc.121/e13523/T302934T531415.htm
       - type: API Reference
-        url: 
-          https://docs.oracle.com/en/cloud/saas/project-management/r13-update17d/oapjm/api-projects.html
+        url: https://docs.oracle.com/en/cloud/saas/project-management/r13-update17d/oapjm/api-projects.html
     contact:
       - type: Support
         url: https://support.oracle.com
@@ -191,11 +175,9 @@ common:
   - type: Portal
     url: https://support.oracle.com
   - type: Authentication
-    url: 
-      https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/authentication.html
+    url: https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/authentication.html
   - type: Rate Limits
-    url: 
-      https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/rate-limits.html
+    url: https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/rate-limits.html
   - type: Status
     url: https://status.oracle.com
   - type: Terms of Service
@@ -206,10 +188,10 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 tags:
-  - Financial Management
-  - ERP
-  - Oracle
-  - E-Business Suite
-  - Release 12
-  - Enterprise
   - Accounting
+  - E-Business Suite
+  - Enterprise
+  - ERP
+  - Financial Management
+  - Oracle
+  - Release 12
