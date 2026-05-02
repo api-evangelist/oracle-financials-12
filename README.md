@@ -1,28 +1,29 @@
-# Oracle Financials 12 APIs (oracle-financials-12)
-Collection of REST APIs for Oracle E-Business Suite Financials Release 12
+# Oracle Financials 12 (oracle-financials-12)
+Collection of REST APIs for Oracle E-Business Suite Financials Release 12.
 
-**URL:** [Visit APIs.json URL](https://www.oracle.com/financials/)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/apis.yml)
 
 ## Tags:
 
- - Financial Management, ERP, Oracle, E-Business Suite, Release 12, Enterprise, Accounting
+ - Accounting, E-Business Suite, Enterprise, ERP, Financial Management, Oracle, Release 12
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Oracle General Ledger API
-API for managing general ledger operations including journals, budgets, and financial reporting
+API for managing general ledger operations including journals, budgets, and financial reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13561/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13561/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - General Ledger, Accounting, Financial Reporting, Journals
+ - Accounting, Financial Reporting, General Ledger, Journals
 
 #### Properties
 
@@ -31,10 +32,11 @@ API for managing general ledger operations including journals, budgets, and fina
 - [Authentication](https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/authentication.html)
 
 ### Oracle Accounts Payable API
-API for managing supplier invoices, payments, and payables operations
+API for managing supplier invoices, payments, and payables operations.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13533/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13533/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
@@ -47,14 +49,15 @@ API for managing supplier invoices, payments, and payables operations
 - [API Guide](https://docs.oracle.com/cd/E18727_01/doc.121/e20280/toc.htm)
 
 ### Oracle Accounts Receivable API
-API for managing customer invoices, receipts, and receivables operations
+API for managing customer invoices, receipts, and receivables operations.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13522/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13522/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - Accounts Receivable, Customer Invoices, Receipts, Collections
+ - Accounts Receivable, Collections, Customer Invoices, Receipts
 
 #### Properties
 
@@ -63,14 +66,15 @@ API for managing customer invoices, receipts, and receivables operations
 - [API Guide](https://docs.oracle.com/cd/E18727_01/doc.121/e20281/toc.htm)
 
 ### Oracle Cash Management API
-API for managing bank accounts, cash positions, and treasury operations
+API for managing bank accounts, cash positions, and treasury operations.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13540/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13540/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - Cash Management, Bank Accounts, Treasury, Reconciliation
+ - Bank Accounts, Cash Management, Reconciliation, Treasury
 
 #### Properties
 
@@ -78,14 +82,15 @@ API for managing bank accounts, cash positions, and treasury operations
 - [API Reference](https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/api-cash-management.html)
 
 ### Oracle Fixed Assets API
-API for managing fixed assets, depreciation, and asset lifecycle
+API for managing fixed assets, depreciation, and asset lifecycle.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13549/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13549/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - Fixed Assets, Depreciation, Asset Management, Capital Assets
+ - Asset Management, Capital Assets, Depreciation, Fixed Assets
 
 #### Properties
 
@@ -93,14 +98,15 @@ API for managing fixed assets, depreciation, and asset lifecycle
 - [API Guide](https://docs.oracle.com/cd/E18727_01/doc.121/e20282/toc.htm)
 
 ### Oracle Purchasing API
-API for managing purchase orders, requisitions, and procurement operations
+API for managing purchase orders, requisitions, and procurement operations.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13513/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13513/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - Purchasing, Purchase Orders, Requisitions, Procurement
+ - Procurement, Purchase Orders, Purchasing, Requisitions
 
 #### Properties
 
@@ -108,14 +114,15 @@ API for managing purchase orders, requisitions, and procurement operations
 - [API Reference](https://docs.oracle.com/en/cloud/saas/procurement/r13-update17d/oaprc/api-purchasing.html)
 
 ### Oracle Expenses API
-API for managing employee expenses, expense reports, and reimbursements
+API for managing employee expenses, expense reports, and reimbursements.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13548/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13548/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - Expenses, Expense Reports, Reimbursements, Travel
+ - Expense Reports, Expenses, Reimbursements, Travel
 
 #### Properties
 
@@ -123,14 +130,15 @@ API for managing employee expenses, expense reports, and reimbursements
 - [API Guide](https://docs.oracle.com/en/cloud/saas/financials/r13-update17d/fafrs/api-expenses.html)
 
 ### Oracle Projects API
-API for managing projects, project costs, and project billing
+API for managing projects, project costs, and project billing.
 
 **Human URL:** [https://docs.oracle.com/cd/E18727_01/doc.121/e13523/toc.htm](https://docs.oracle.com/cd/E18727_01/doc.121/e13523/toc.htm)
 
+**Base URL:** `https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05`
 
 #### Tags:
 
- - Projects, Project Costing, Project Billing, Contracts
+ - Contracts, Project Billing, Project Costing, Projects
 
 #### Properties
 
@@ -148,6 +156,6 @@ API for managing projects, project costs, and project billing
 
 ## Maintainers
 
-**FN:** Oracle Corporation
+**FN:** Kin Lane
 
-**Email:** financials-support@oracle.com
+**Email:** kin@apievangelist.com
