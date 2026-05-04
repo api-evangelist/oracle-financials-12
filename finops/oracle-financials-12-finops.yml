@@ -1,0 +1,198 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+provider: Oracle Financials 12
+providerId: oracle-financials-12
+publisherName: Oracle Financials 12
+serviceCategory: API
+created: '2026-05-04'
+modified: '2026-05-04'
+tags:
+  - Accounting
+  - E-Business Suite
+  - Enterprise
+  - ERP
+  - Financial Management
+  - Oracle
+  - Release 12
+  - FinOps
+  - Cost Management
+  - FOCUS
+description: FinOps framework definition for the Oracle Financials 12 API surface. Provides a FOCUS-aligned
+  mapping for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
+principles:
+  - name: Visibility
+    description: Make API consumption costs visible to engineering, product, and finance teams in near
+      real-time.
+  - name: Allocation
+    description: Tag every chargeable API call with the consuming team, environment, application, and
+      feature so cost can be allocated.
+  - name: Optimization
+    description: Continuously evaluate request patterns, caching, batching, and tier selection to reduce
+      cost per useful unit of work.
+  - name: Accountability
+    description: Establish budget owners and chargeback or showback flows for each consuming team.
+domains:
+  - name: Understand Usage and Cost
+    capabilities:
+      - Data Ingestion
+      - Allocation
+      - Reporting and Analytics
+      - Anomaly Management
+  - name: Quantify Business Value
+    capabilities:
+      - Planning and Estimating
+      - Forecasting
+      - Budgeting
+      - Benchmarking
+      - Unit Economics
+  - name: Optimize Usage and Cost
+    capabilities:
+      - Architecting for Cloud
+      - Rate Optimization
+      - Workload Optimization
+      - Cloud Sustainability
+      - Licensing and SaaS
+  - name: Manage the FinOps Practice
+    capabilities:
+      - FinOps Practice Operations
+      - FinOps Education and Enablement
+      - Invoicing and Chargeback
+      - Onboarding Workloads
+      - Intersecting Disciplines
+billingModel:
+  pricingCategory: Usage-Based
+  billingFrequency: Monthly
+  billingCurrency: USD
+  chargeCategories:
+    - Usage
+    - Purchase
+    - Tax
+    - Credit
+    - Adjustment
+  chargeFrequency: Recurring
+focusColumns:
+  ServiceName: Oracle Financials 12
+  ServiceCategory: Developer Tools / API
+  ProviderName: Oracle Financials 12
+  PublisherName: Oracle Financials 12
+  InvoiceIssuerName: Oracle Financials 12
+  PricingCategory: Usage-Based
+  PricingUnit: request
+  BillingCurrency: USD
+  ChargeCategory: Usage
+meters:
+  - name: api_requests
+    description: Count of billable API requests
+    unit: request
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+      - region
+      - consumer
+  - name: data_egress
+    description: Bytes returned over the network in API responses
+    unit: GB
+    aggregation: sum
+    dimensions:
+      - api
+      - region
+      - consumer
+  - name: compute_seconds
+    description: Server-side compute consumed by the request, where applicable
+    unit: second
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+apis:
+  - name: Oracle General Ledger API
+    baseURL: ''
+    tags:
+      - Accounting
+      - Financial Reporting
+      - General Ledger
+      - Journals
+    serviceName: Oracle General Ledger API
+    serviceCategory: API
+  - name: Oracle Accounts Payable API
+    baseURL: ''
+    tags:
+      - Accounts Payable
+      - Invoices
+      - Payments
+      - Suppliers
+    serviceName: Oracle Accounts Payable API
+    serviceCategory: API
+  - name: Oracle Accounts Receivable API
+    baseURL: ''
+    tags:
+      - Accounts Receivable
+      - Collections
+      - Customer Invoices
+      - Receipts
+    serviceName: Oracle Accounts Receivable API
+    serviceCategory: API
+  - name: Oracle Cash Management API
+    baseURL: ''
+    tags:
+      - Bank Accounts
+      - Cash Management
+      - Reconciliation
+      - Treasury
+    serviceName: Oracle Cash Management API
+    serviceCategory: API
+  - name: Oracle Fixed Assets API
+    baseURL: ''
+    tags:
+      - Asset Management
+      - Capital Assets
+      - Depreciation
+      - Fixed Assets
+    serviceName: Oracle Fixed Assets API
+    serviceCategory: API
+  - name: Oracle Purchasing API
+    baseURL: ''
+    tags:
+      - Procurement
+      - Purchase Orders
+      - Purchasing
+      - Requisitions
+    serviceName: Oracle Purchasing API
+    serviceCategory: API
+  - name: Oracle Expenses API
+    baseURL: ''
+    tags:
+      - Expense Reports
+      - Expenses
+      - Reimbursements
+      - Travel
+    serviceName: Oracle Expenses API
+    serviceCategory: API
+  - name: Oracle Projects API
+    baseURL: ''
+    tags:
+      - Contracts
+      - Project Billing
+      - Project Costing
+      - Projects
+    serviceName: Oracle Projects API
+    serviceCategory: API
+unitEconomics:
+  - name: Cost per 1K Requests
+    metric: billed_cost / (api_requests / 1000)
+    target: TBD
+  - name: Cost per Active Consumer
+    metric: billed_cost / active_consumers
+    target: TBD
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
