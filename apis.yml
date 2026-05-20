@@ -172,6 +172,8 @@ apis:
       - type: Support
         url: https://support.oracle.com
 common:
+  - type: GitHubOrganization
+    url: https://github.com/oracle
   - type: Portal
     url: https://support.oracle.com
   - type: Authentication
