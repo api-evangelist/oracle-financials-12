@@ -3,9 +3,21 @@ name: Oracle Financials 12
 description: >-
   Collection of REST APIs for Oracle E-Business Suite Financials Release 12.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-financials-12.png
 url: >-
   https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/apis.yml
 created: '2024-01-15'
