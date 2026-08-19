@@ -22,7 +22,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - name: Oracle General Ledger API
     description: >-
