@@ -75,6 +75,11 @@ apis:
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
       - Accounts Receivable
+      - Collection
+      - Customer Invoices
+      - Receipts
+    tags_raw:
+      - Accounts Receivable
       - Collections
       - Customer Invoices
       - Receipts
@@ -154,6 +159,11 @@ apis:
     tags:
       - Expense Reports
       - Expenses
+      - Reimbursement
+      - Travel
+    tags_raw:
+      - Expense Reports
+      - Expenses
       - Reimbursements
       - Travel
     properties:
@@ -171,6 +181,11 @@ apis:
     humanUrl: https://docs.oracle.com/cd/E18727_01/doc.121/e13523/toc.htm
     baseUrl: https://your-instance.oracle.com/fscmRestApi/resources/11.13.18.05
     tags:
+      - Contracts
+      - Project Billing
+      - Project Costing
+      - Project
+    tags_raw:
       - Contracts
       - Project Billing
       - Project Costing
